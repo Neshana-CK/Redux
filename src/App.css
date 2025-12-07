@@ -1,0 +1,117 @@
+/* -------------- GLOBAL ---------------- */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: #f9fff7; /* light white-green */
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  color: #1d3e21;
+}
+
+/* -------------- MAIN CONTAINER ---------------- */
+.container {
+  width: 500px;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  border: 2px solid #c7e8cc;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.07);
+}
+
+/* -------------- TITLE ---------------- */
+h1 {
+  text-align: center;
+  margin-bottom: 28px;
+  color: #3fa34d; /* grass green */
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* -------------- INPUT AREA ---------------- */
+.input-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+input {
+  flex: 1;
+  padding: 12px 16px;
+  border-radius: 12px;
+  border: 2px solid #aee5b6;
+  background: #fbfffb;
+  color: #1c3822;
+  font-size: 16px;
+  outline: none;
+  transition: 0.25s ease;
+}
+
+input::placeholder {
+  color: #7fa987;
+}
+
+input:focus {
+  border-color: #3fa34d;
+  box-shadow: 0 0 7px rgba(63, 163, 77, 0.45);
+}
+
+/* -------------- ADD BUTTON ---------------- */
+.add-btn {
+  background: #3fa34d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.add-btn:hover {
+  background: #358d43;
+  transform: translateY(-2px);
+}
+
+/* -------------- MOVIE CARD ---------------- */
+.movie-item {
+  background: #fafff9;
+  border: 1.5px solid #c7eac9;
+  padding: 18px 22px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+  transition: 0.2s ease;
+}
+
+.movie-item:hover {
+  border-color: #90d99d;
+  background: #f3fff4;
+}
+
+.movie-name {
+  font-size: 17px;
+  color: #234b26;
+  font-weight: 500;
+}
+
+/* -------------- DELETE BUTTON ---------------- */
+.delete-btn {
+  background: #3fa34d; /* green delete button */
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: 0.25s ease;
+}
+
+.delete-btn:hover {
+  background: #358d43;
+  transform: scale(1.1);
+}
